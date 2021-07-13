@@ -17,8 +17,8 @@
             "statusCode": "401"
         },
         {
-            "route": "/",
-            "allowedRoles": ["authenticated"]
+            "route": "/*",
+            "allowedRoles": ["reader"]
         }
     ]
 }
